@@ -23,4 +23,4 @@ for i in range(start_id, start_id + download_count):
             file.write(response.content)
             file.close()
 
-print('Downloaded ' + download_count + ' images')
+print('Downloaded ' + str(download_count) + ' images')
